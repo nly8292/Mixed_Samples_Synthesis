@@ -6,14 +6,14 @@ This is an official implementation of a paper, "Synthesizing Mixed Image Samples
 Please install requirements by `pip install -r requirements.txt`
 
 - Python 3.6+
-- Tensorflow 1.14
-- Pillow 6.1
+- Tensorflow 1.14.0
+- Pillow 6.1.0
 - opencv-python 4.1.1.26
 - scikit-image 0.15.0 
 
 ## Usage
 ### Pre-trained Models
-The pre-trained weights of VGG16 for synthesizing images can be downloaded with this link. The weights need to be stored in `Synthesis/`.
+The pre-trained weights of VGG16 for synthesizing images can be downloaded with this [link]. The weights need to be stored in `Synthesis/`.
 
 ### Dataset Directory Setup
 The desired dataset has to be structured where the images of each class is the sub-folder within the main dataset folder e.g., `<data_root_dir\classA\>', `<data_root_dir\classB\>', etc... For the synthesizing constraints images, the segmentation masks have also to be structured in the similar way.
