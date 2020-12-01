@@ -13,7 +13,7 @@ Please install requirements by `pip install -r requirements.txt`
 
 ## Usage
 ### Pre-trained Models
-The pre-trained weights of VGG16 for synthesizing images can be downloaded with this [link]. The weights need to be stored in `Synthesis/`.
+The pre-trained weights of VGG16 trained on ImageNet for synthesizing images can be downloaded with this [link](https://drive.google.com/drive/folders/1Wcb0Plj3iD21JYDAzOrhvQTM_kZAFpte?usp=sharing). The weights need to be stored in `Synthesis/`.
 
 ### Dataset Directory Setup
 The desired dataset has to be structured where the images of each class is the sub-folder within the main dataset folder e.g., `<data_root_dir\classA\>', `<data_root_dir\classB\>', etc... For the synthesizing constraints images, the segmentation masks have also to be structured in the similar way.
