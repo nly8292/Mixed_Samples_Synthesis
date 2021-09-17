@@ -1,4 +1,7 @@
-tensorflow-gpu==1.14.0
-scikit-image==0.15.0 
+opencv-python==4.1.0.25
+matplotlib==3.1.1
 Pillow==6.1.0
-opencv-python==4.1.1.26
+tensorboard==2.2.2
+tensorboardX==2.1
+torch==1.1.0
+torchvision==0.3.0
