@@ -1,6 +1,6 @@
 
 # Mixed Sample Synthesis
-This is the official implementation of mixed sample synthesis model in the paper ["dafafsda"]
+This is the official implementation of the mixed sample synthesis model in the paper "[Determining the Composition of a Mixed Material with Synthetic Data]"
 
 ## Setup
 
