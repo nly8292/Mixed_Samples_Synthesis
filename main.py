@@ -1,11 +1,3 @@
-#!/home/sci/nly8292/document/pytorch3/bin/python
-
-#SBATCH --time=48:00:00
-#SBATCH --nodes=1
-#SBATCH -o slurm-%j.out-%N
-#SBATCH -e slurm-%j.err-%N
-#SBATCH  --gres=gpu:1
-
 from __future__ import print_function, division, absolute_import, unicode_literals
 import numpy as np
 import os
