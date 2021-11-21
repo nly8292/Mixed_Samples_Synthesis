@@ -60,9 +60,15 @@ Execute the script `run_script.sh` to generate mixed sample. Moreover, the follo
 - `display_ref_gen` - Displaying reference images and generated image on the same canvas
 
 ## Citation
-If you use this code for your research, please cite our paper <a href="to_be_added">Determining the Composition of a Mixed Material with Synthetic Data</a>:
+If you use this code for your research, please cite our paper <a href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/determining-the-composition-of-a-mixed-material-with-synthetic-data/54D1870F67F0285C85F054FF78D45A96">Determining the Composition of a Mixed Material with Synthetic Data</a>:
 
 ```
-bibtex_to_be_added
+@article{ly_nizinski_toydemir_vachet_mcdonald_tasdizen_2021, 
+title={Determining the Composition of a Mixed Material with Synthetic Data}, 
+DOI={10.1017/S1431927621012915}, journal={Microscopy and Microanalysis}, 
+publisher={Cambridge University Press}, 
+author={Ly, Cuong and Nizinski, Cody A. and Toydemir, Ada and Vachet, Clement and McDonald, Luther W. and Tasdizen, Tolga}, 
+year={2021}, 
+pages={1–11}}
 ```
 
