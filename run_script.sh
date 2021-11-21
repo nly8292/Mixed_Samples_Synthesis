@@ -1,7 +1,7 @@
 #!/bin/bash
 
 python main.py --gpu_id 0 \
---root_dir='/usr/sci/projs/DeepLearning/Cuong_Dataset/Nuclear_Forensics_Data/Mixtures/Mixtures_Texture_Preprocessed/Train_Manual_Preprocessed' \
+--root_dir='./' \
 --precursors='ADU','MDU','SDU' \
 --w_precursors=0.0,1.0,0.0 \
 --start_num=0 --num_gen=15 \
