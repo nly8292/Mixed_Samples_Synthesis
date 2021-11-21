@@ -1,6 +1,6 @@
 
 # Mixed Sample Synthesis
-This is the official implementation of the mixed sample synthesis model in the paper <a href="to_be_added">Determining the Composition of a Mixed Material with Synthetic Data</a>
+This is the official implementation of the mixed sample synthesis model in the paper <a href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/determining-the-composition-of-a-mixed-material-with-synthetic-data/54D1870F67F0285C85F054FF78D45A96">Determining the Composition of a Mixed Material with Synthetic Data</a>
 
 ## Setup
 
