@@ -28,23 +28,7 @@ class Mixtures(Dataset):
         
         img_name = self.im_list[idx]                  
         img = PILImage.open(img_name)  
-        ###############################################################
-        if True: 
-            hfw = img_name.split('/')[-1].split('_')[3]
-            if hfw == '1.53um':        
-                img = img.resize((128,128), resample=PILImage.BILINEAR)            
-                #print('1.53',img_name)
-            elif hfw == '3.06um':
-                img = img.resize((256,256), resample=PILImage.BILINEAR)          
-                x,y = self._get_randcoord(256,256,128)
-                img = img.crop((x,y,x+128,y+128))
-                #print('3.06',img_name)
-            else:
-                x,y = self._get_randcoord(512,512,128)
-                img = img.crop((x,y,x+128,y+128))
-        ###############################################################
-
-                                                                     
+                                                                             
         img = self._convert_img_mode(img)        
         img_ten = self.data_transforms(img)         
         
